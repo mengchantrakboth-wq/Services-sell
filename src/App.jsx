@@ -1,16 +1,22 @@
 import React from 'react'
 import Navbar_header from './assets/components/Navbar_header'
+import Hero from './assets/components/Hero'
+import ButtonBar from './assets/components/ButtonBar'
  
 
 function App() {
   return (
-    <div>
-       <header>
-        <div>
+    <div>      
+        <header>
           <Navbar_header/>
-        </div>
-        
-       </header>
+          
+          
+        </header>
+        <main>
+          {/* <Hero/> */}
+          <ButtonBar/>
+        </main>
+       
       
     </div>
   )
