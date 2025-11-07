@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar_header from './assets/components/Navbar_header'
 import Hero from './assets/components/Hero'
 import ButtonBar from './assets/components/ButtonBar'
+import Card from './assets/components/Card'
+import Client from './assets/components/Client'
  
 
 function App() {
@@ -9,11 +11,11 @@ function App() {
     <div>      
         <header>
           <Navbar_header/>
-          
-          
         </header>
         <main>
-          {/* <Hero/> */}
+          <Hero/>
+          <Card/>
+          <Client/>
           <ButtonBar/>
         </main>
        
