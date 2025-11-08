@@ -4,6 +4,7 @@ import Hero from './assets/components/Hero'
 import ButtonBar from './assets/components/ButtonBar'
 import Card from './assets/components/Card'
 import Client from './assets/components/Client'
+import Brand from './assets/components/Brand'
  
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Hero/>
           <Card/>
           <Client/>
+          <Brand/>
           <ButtonBar/>
         </main>
        

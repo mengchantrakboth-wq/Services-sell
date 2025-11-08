@@ -9,8 +9,8 @@ function Client() {
             <h1 className='text-3xl text-white pt-2 '>Client Testimonials</h1>
             <p className='font-normal pt-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quis tempore doloribus eveniet illum, corrupti odit facere atque fugiat at.</p>
         </div>
-        <div className='lg:flex justify-center mx-auto items-center m-5 md:px-1 md:w-[59%] lg:w-[59%] lg:px-3  lg:me-10  '>
-            <div className=' md:text-left lg:text-center text-center p-5 my-10  border rounded-3xl border-white bg-transparent hover:scale-110 transition  md:px-5 md:mx-10 lg:mx-15   '>   
+        <div className='md:flex lg:flex justify-center mx-auto items-center m-5 md:px-1 md:my-10 lg:w-[59%] lg:px-3  lg:me-10  '>
+            <div className='lg:text-center text-center p-5 my-10 lg:my-2 md:my-2  border rounded-3xl border-white bg-transparent hover:scale-110 transition  md:px-5 md:mx-10 lg:mx-15   '>   
                 <div className="flex flex-col items-center text-center duration-300">
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPMQUInMjk-0FNxF2c8oALFdaTTce1NWEAA&s"
@@ -24,7 +24,7 @@ function Client() {
                 </div>
                 <p className='text-gray-100 md:pt-5 '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus exercitationem.</p>
             </div>
-            <div className=' md:text-left lg:text-center text-center p-5  border rounded-3xl border-white bg-transparent hover:scale-110 transition  md:px-5 md:mx-2   '>   
+            <div className='lg:text-center text-center p-5 my-10 lg:my-2  border rounded-3xl border-white bg-transparent hover:scale-110 transition  md:px-5 md:mx-10 lg:mx-15   '>   
                 <div className="flex flex-col items-center text-center duration-300">
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPMQUInMjk-0FNxF2c8oALFdaTTce1NWEAA&s"
@@ -38,6 +38,7 @@ function Client() {
                 </div>
                 <p className='text-gray-100 md:pt-5 '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus exercitationem.</p>
             </div>
+             
             
              
              
