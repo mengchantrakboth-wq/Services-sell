@@ -5,6 +5,8 @@ import ButtonBar from './assets/components/ButtonBar'
 import Card from './assets/components/Card'
 import Client from './assets/components/Client'
 import Brand from './assets/components/Brand'
+import Subsrcibe from './assets/components/Subsrcibe'
+import Footer from './assets/components/footer'
  
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Card/>
           <Client/>
           <Brand/>
+          <Subsrcibe/>
+          <Footer/>
           <ButtonBar/>
         </main>
        
